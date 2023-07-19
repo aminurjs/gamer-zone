@@ -329,8 +329,18 @@ nav ul .follow a .fa-tiktok{
     border-color: #F948B2;
 }
 
-
-
+/* Footer area styles  */
+footer{
+    background: #0B0223;
+    padding: 100px 0;
+}
+footer .logo{
+    text-align: center;
+    margin-bottom: 60px;
+}
+footer .logo> a{
+    color: #FFF;
+}
 
 
 
@@ -391,3 +401,6 @@ nav ul .follow a .fa-tiktok{
         margin: 20px 10px 0 0;
     }
 }
+
+
+
