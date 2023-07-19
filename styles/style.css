@@ -248,6 +248,81 @@ nav ul .follow a .fa-tiktok{
     color: #FF42A5;
     margin-top: 15px;
 }
+/* Instant play section */
+.instant_play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play_content{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play_content .inner_content{
+    max-width: 350px;
+}
+.play_content .inner_content h2{
+    color: #0B0223;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.play_content .inner_content h2 .gradient_title{
+    font-size: 48px;
+    text-transform: capitalize;
+    line-height: 60px;
+    text-align: right;
+}
+.play_content .inner_content p{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    line-height: 30px;
+}
+.instant_play .play_img{
+    width: 45%;
+}
+.instant_play .play_img .img_2{
+    position: relative;
+    bottom: 250px;
+    right: 25%;
+    margin-bottom: -130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Mobile responsive styles */
 
