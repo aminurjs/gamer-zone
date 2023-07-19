@@ -459,6 +459,16 @@ footer .logo> a{
     .game_list ul li {
         width: 100%;
     }
+    .game_list ul li a img {
+        height: 30px;
+        width: 30px;
+    }
+    .game_list ul li a {
+        gap: 5px;
+        font-size: 14px;
+        padding: 5px;
+        margin-right: 0px;
+    }
     .footer_nav ul, .privacy_area ul{
         flex-wrap: wrap;
         width: 360px;
