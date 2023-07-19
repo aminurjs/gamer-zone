@@ -341,8 +341,38 @@ footer .logo{
 footer .logo> a{
     color: #FFF;
 }
-
-
+.footer_nav ul, .social_area ul, .privacy_area ul{
+    display: flex;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    padding: 10px;
+    gap: 50px;
+    list-style: none;
+}
+.footer_nav ul, .social_area ul{
+    margin-bottom: 50px;
+}
+.footer_nav ul a{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.social_area ul a{
+    font-size: 35px;
+    color: #FFF;
+}
+.privacy_area ul a{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+.copyright_area{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
 
 
 
