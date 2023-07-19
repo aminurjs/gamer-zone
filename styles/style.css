@@ -343,7 +343,6 @@ footer .logo> a{
 }
 .footer_nav ul, .social_area ul, .privacy_area ul{
     display: flex;
-    grid-template-columns: repeat(6, 1fr);
     justify-content: center;
     padding: 10px;
     gap: 50px;
@@ -373,26 +372,6 @@ footer .logo> a{
     font-weight: 500;
     margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -430,7 +409,67 @@ footer .logo> a{
         padding: 20px 35px;
         margin: 20px 10px 0 0;
     }
+    .about_container {
+        flex-direction: column;
+    }
+    .about_img {
+        width: 100%;
+    }
+    .about_content {
+        width: 100%;
+        text-align: center;
+    }
+    .about_content .gradient_title,.about_content p,.about_content h3 {
+        text-align: center;
+    }
+    .game_videos {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 30px;
+    }
+    .game_videos .img img{
+        width: 100%;
+    }
+    .game_videos p {
+        text-align: center;
+    }
+    .instant_play {
+        flex-direction: column;
+    }
+    .play_content {
+        width: 100%;
+        text-align: center;
+    }
+    .play_content .inner_content h2, .play_content .inner_content p  {
+        text-align: center;
+    }
+    .instant_play .play_img {
+        width: 80%;
+        margin-right: -70px;
+        margin-top: 30px;
+    }
+    .instant_play .play_img .img_2 {
+        width: 60%;
+        right: 15%;
+        bottom: 150px;
+    }
+    .game_list ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .game_list ul li {
+        width: 100%;
+    }
+    .footer_nav ul, .social_area ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+     .privacy_area ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
+
+
 
 
 
